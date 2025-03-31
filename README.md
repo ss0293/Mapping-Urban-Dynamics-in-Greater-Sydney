@@ -11,4 +11,13 @@ The included scripts focus on the post-classification analysis of Local Climate 
 
 
 
+### `plot_multi_year_lczmap.py`
+Generates a multi-panel figure displaying Local Climate Zone (LCZ) classification maps across multiple years (e.g., 1990–2020). This script:
+- Applies WUDAPT-compliant LCZ color schemes and labels.
+- Plots clipped raster outputs over a district-level shapefile.
+- Adds year annotations, scale-appropriate tick labels, and a customized vertical colorbar.
+- Produces a final high-resolution composite image suitable for publication.
+
+📌 Note: The script uses `rioxarray`, `geopandas`, `matplotlib`, and `mpl_toolkits` for geospatial and visual layout.
+
 
