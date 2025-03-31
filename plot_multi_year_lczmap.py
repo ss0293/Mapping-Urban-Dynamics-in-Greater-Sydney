@@ -118,4 +118,4 @@ if __name__ == "__main__":
     shapefile_path = "data/study_area_boundary.shp"
     output_dir = "figures/"
 
-    plot_lczmap_multi_year(tiff_paths, shapefile_path, output_dir, years)
+    plot_lczmap_multi_year(tiff_paths, shapefile_path, output_dir, years) 
