@@ -20,4 +20,10 @@ Generates a multi-panel figure displaying Local Climate Zone (LCZ) classificatio
 
 📌 Note: The script uses `rioxarray`, `geopandas`, `matplotlib`, and `mpl_toolkits` for geospatial and visual layout.
 
+## 🗂 Example Usage
 
+Update the file paths in `plot_multi_year_lczmap.py` under the `if __name__ == "__main__"` section:
+
+```python
+tiff_paths = ["data/LCZ_1990.tif", ..., "data/LCZ_2020.tif"]
+shapefile_path = "data/study_area_boundary.shp"
